@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h2>CRUD Operation</h2>
       <Routes>
-        <Route path='/create'  element={<Create />}  />
+        <Route path='/'  element={<Create />}  />
         <Route path='/read'  element={<Read />}  />
         <Route path='/update'  element={<Update />} />
 
